@@ -37,7 +37,7 @@ a{
     text-decoration: none;
 }
 body{
-    font-family: "urbanist-norm","sans-serif" ;
+    font-family: "urbanist-norm",sans-serif;
     width: 100%;
     height: 100%;
     background-color: var(--body);
