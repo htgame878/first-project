@@ -1,0 +1,378 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style/style.css">
+    <script src="js/js.js" defer></script>
+    <title>Document</title>
+</head>
+<body>
+    <div class="section_theme section_theme_video">
+        <video id="video_background" src="img/movie2.mp4" muted autoplay loop></video>
+        <section id="first_show">
+            <header>
+                <div id="header_top">
+                    <a href="#"><img id="header_top_logo" src="img/logo-light.png"></a>
+                    <ul id="header_top_nav">
+                        <li>demos<i class="fa-solid fa-caret-down fa-sm"></i></li>
+                        <li>pages<i class="fa-solid fa-caret-down fa-sm"></i></li>
+                        <li>projects<i class="fa-solid fa-caret-down fa-sm"></i></li>
+                        <li>blog<i class="fa-solid fa-caret-down fa-sm"></i></li>
+                        <li>blocks<i class="fa-solid fa-caret-down fa-sm"></i></li>
+                        <li>documentation<i class="fa-solid fa-caret-down fa-sm"></i></li>
+                    </ul>
+                    <div id="language">
+                        <span id="language_menu_header">EN<i class="fa-solid fa-caret-down fa-sm"></i></span>
+                        <ul id="language_menu">
+                            <li>EN</li>
+                            <li>DE</li>
+                            <li>ES</li>
+                        </ul>
+                    </div>
+                </div>
+            </header>
+            <div class="first_show_content">
+               
+            </div>
+        </section>
+    </div>
+    <!--section info-->
+     <div class="section_theme section_theme_info">
+        <div class="container">
+            <div id="section_title_info">
+                <div id="mini_title_info">WHAT WE DO?</div>
+                <h2 id="main_title_info">The service we offer is specifically designed to meet your needs.</h2>
+            </div>
+            <div class="info_list">
+                <div class="info">
+                    <div class="info_image" data-img="../img/ui4.png"></div>
+                        <div id="info_content">
+                            <h3>Web Design</h3>
+                            <span>Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Praesent commodo cursus magna risus varius.</span>
+                            <ul id="advantage_list">
+                                <li><i class="fa-solid fa-check"></i><span>quam ornare curabitur blandit.</span></li>
+                                <li><i class="fa-solid fa-check"></i>Nullam quis risus eget urna mollis ornare leo.</li>
+                                <li><i class="fa-solid fa-check"></i>Etiam porta euismod mollis natoque ornare.</li>
+                            </ul>
+                            <a href="#">More Details</a>
+                        </div>
+                </div>
+            </div>
+            <div class="info_list">
+                <div class="info">
+                    <div class="info_image" data-img="../img/ui1.png"></div>
+                        <div id="info_content">
+                            <h3>Web Design</h3>
+                            <span>Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Praesent commodo cursus magna risus varius.</span>
+                            <ul id="advantage_list">
+                                <li><i class="fa-solid fa-check"></i><span>quam ornare curabitur blandit.</span></li>
+                                <li><i class="fa-solid fa-check"></i>Nullam quis risus eget urna mollis ornare leo.</li>
+                                <li><i class="fa-solid fa-check"></i>Etiam porta euismod mollis natoque ornare.</li>
+                            </ul>
+                            <a href="#">More Details</a>
+                        </div>
+                </div>
+            </div>
+            <div class="info_list">
+                <div class="info">
+                    <div class="info_image" data-img="../img/ui5.png"></div>
+                        <div id="info_content">
+                            <h3>Web Design</h3>
+                            <span>Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Praesent commodo cursus magna risus varius.</span>
+                            <ul id="advantage_list">
+                                <li><i class="fa-solid fa-check"></i><span>quam ornare curabitur blandit.</span></li>
+                                <li><i class="fa-solid fa-check"></i>Nullam quis risus eget urna mollis ornare leo.</li>
+                                <li><i class="fa-solid fa-check"></i>Etiam porta euismod mollis natoque ornare.</li>
+                            </ul>
+                            <a href="#">More Details</a>
+                        </div>
+                </div>
+            </div> 
+        </div>
+        
+     </div>
+     <!--section pro video player-->
+     <div class="section_theme section_theme_pro_vidoe_player">
+        <div id="pro_video_player">
+            <!--video-->
+            <video id="main_video_pvp" src="img/test.mp4"></video>
+            
+            <!--main icon video player-->
+            <div id="play_icon_temp">
+                <i id="play_icon" class="fa-solid fa-play play_icon"></i>
+                <div id="first"></div>
+                <div id="second"></div>
+                <div id="third"></div>
+            </div>
+
+            <!--control icons bottom of video player-->
+            <div id="control_player">
+
+                <i id="play_icon_bar" class="fa-solid fa-play"></i>
+                
+                <div class="bar" id="player_bar">
+                    <div class="play_bar_circle" id="play_bar_circle" draggable="false"></div>
+                </div>
+                <span id="play_bar_time">00:00</span>
+                <i id="volume_icon" class="fa-solid fa-volume-high"></i>
+                <div class="bar" id="volume_value" class="bar">
+                    <div class="play_bar_circle" id="volume_bar_circle"></div>
+                </div>
+                <div id="setting_temp">
+                    <div class="setting_sidebars">
+                        <div id="speed_menu_1">
+                            <button class="speed_hover wait" id="speedbtn_1">Speed
+                                <span id="current_speed">Normal</span><i class="fa-solid fa-arrow-right"></i></button>
+                            </div>
+                        <div id="speed_menu_2">
+                            <span id="speedbtn_2" class="activelist speed_hover">Speed</span>        
+                            <ul id="speed_list">
+                            <li class="speed_hover">2</li>
+                            <li class="speed_hover">1.75</li>
+                            <li class="speed_hover">1.5</li>
+                            <li class="speed_hover">1.25</li>
+                            <li class="speed_hover">Normal</li>
+                            <li class="speed_hover">0.75</li>
+                            <li class="speed_hover">0.5</li>
+                        </ul>
+                        </div>
+                    </div>
+                        <i id="setting_icon" class="settingnotactive fa-solid fa-gear"></i>
+                </div>
+                <i class="fa-solid fa-layer-group"></i>
+                <i id="full_screen" class="fa-solid fa-up-right-and-down-left-from-center"></i>
+            </div>
+        </div>
+        <div id="pvp_info">
+                <div id="pvp_services">
+                    <span>OUR WORKING PROCESS</span>
+                    <h3>Find out everything you need to know about creating a business process model</h3>    
+                </div>
+                <div id="service_info">
+                    <div class="service_items">
+                        <i class="fa-solid fa-lightbulb"></i>
+                        <div>1. Collect Ideas</div>
+                        <span>Etiam porta malesuada magna mollis euismod consectetur leo elit.</span>
+                    </div>
+               
+                    <div class="service_items">
+                        <i class="fa-solid fa-database"></i>
+                        <div>2. Data Analysis</div>
+                        <span>Etiam porta malesuada magna mollis euismod consectetur leo elit.</span>
+                    </div>
+              
+                    <div class="service_items">
+                        <i class="fa-solid fa-box-open"></i>
+                        <div>3. Finalize Product</div>
+                        <span>Etiam porta malesuada magna mollis euismod consectetur leo elit.</span>
+                    </div>
+            </div>
+            </div>
+     </div>
+     <!--section gallery-->
+     <div class="section_theme section_theme_gallery">
+        <div id="section_title_info">
+            <div id="mini_title_info">OUR PROJECTS</div>
+            <h2 id="main_title_info">Check out some of our awesome projects with creative ideas and great design.</h2>
+            
+        </div>
+        <div class="main_gallery">
+        </div>
+        <a id="startbtn" href="#">Start a Project</a>    
+     </div>
+     <!--section companies logo-->
+    <div class="section_theme section_theme_company">
+        <div id="company_info">
+            <div id="mini_title_info">OUR CLIENTS</div>
+            <h3 id="main_title_info">Trusted by over 300+ clients</h3>
+            <div id="company_info_txt">We bring solutions to make life easier for our customers.</div>
+        </div>
+        <div id="company_gallery">
+            <div class="company_item"><img src="img/companies/z1.png"></div>
+            <div class="company_item"><img src="img/companies/z2.png"></div>
+            <div class="company_item"><img src="img/companies/z3.png"></div>
+            <div class="company_item"><img src="img/companies/z4.png"></div>
+            <div class="company_item"><img src="img/companies/z5.png"></div>
+            <div class="company_item"><img src="img/companies/z6.png"></div>
+            <div class="company_item"><img src="img/companies/z7.png"></div>
+            <div class="company_item"><img src="img/companies/z8.png"></div>
+        </div>
+    </div>
+    <!--final section-->
+    <div class="section_theme section_theme_final">
+        <div id="section_header_final">
+            <div id="about_info" class="txt_final">
+                <div id="mini_title_info">WHAT MAKES US DIFFERENT?</div>
+                <h3 id="main_title_info" class="txt_final">We make spending stress free so you have the perfect control.</h3>
+                <div id="info_items_final">
+                    <div class="final_item">
+                        <i class="fa-regular fa-lightbulb"></i>
+                        <div class="final_item_content">
+                            <p>Creativity</p>
+                            <span>Creativity Curabitur blandit lacus porttitor ridiculus mus.</span>
+                        </div>
+                    </div>
+                    <div class="final_item">
+                        <i class="fa-solid fa-headphones"></i>
+                        <div class="final_item_content">
+                            <p>Innovative Thinking</p>
+                            <span>Creativity Curabitur blandit lacus porttitor ridiculus mus.</span>
+                        </div>
+                    </div>
+                    <div class="final_item">
+                        <i class="fa-solid fa-ghost"></i>
+                        <div class="final_item_content">
+                            <p>Rapid Solutions</p>
+                            <span>Creativity Curabitur blandit lacus porttitor ridiculus mus.</span>
+                        </div>
+                    </div>
+                    <div class="final_item">
+                        <i class="fa-solid fa-mug-hot"></i>
+                        <div class="final_item_content">
+                            <p>Top-Notch Support</p>
+                            <span>Creativity Curabitur blandit lacus porttitor ridiculus mus.</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <figure id="video_about">
+                <img src="img/about12.jpg" alt="">
+                <div id="play_icon_temp">
+                    <i id="video_about_player" class="fa-solid fa-play play_icon"></i>
+                    <div id="first"></div>
+                    <div id="second"></div>
+                    <div id="third"></div>
+                </div>
+                <div class="video_about_modal" id="pro_video_player">
+                    <!--video-->
+                    <video id="main_video_pvp" src="img/test.mp4"></video>
+                    
+                    <!--main icon video player-->
+                    <div id="play_icon_temp">
+                        <i id="play_icon" class="fa-solid fa-play play_icon"></i>
+                        <div id="first"></div>
+                        <div id="second"></div>
+                        <div id="third"></div>
+                    </div>
+        
+                    <!--control icons bottom of video player-->
+                    <div id="control_player">
+        
+                        <i id="play_icon_bar" class="fa-solid fa-play"></i>
+                        
+                        <div class="bar" id="player_bar">
+                            <div class="play_bar_circle" id="play_bar_circle" draggable="false"></div>
+                        </div>
+                        <span id="play_bar_time">00:00</span>
+                        <i id="volume_icon" class="fa-solid fa-volume-high"></i>
+                        <div class="bar" id="volume_value" class="bar">
+                            <div class="play_bar_circle" id="volume_bar_circle"></div>
+                        </div>
+                        <div id="setting_temp">
+                            <div class="setting_sidebars">
+                                <div id="speed_menu_1">
+                                    <button class="speed_hover wait" id="speedbtn_1">Speed
+                                        <span id="current_speed">Normal</span><i class="fa-solid fa-arrow-right"></i></button>
+                                    </div>
+                                <div id="speed_menu_2">
+                                    <span id="speedbtn_2" class="activelist speed_hover">Speed</span>        
+                                    <ul id="speed_list">
+                                    <li class="speed_hover">2</li>
+                                    <li class="speed_hover">1.75</li>
+                                    <li class="speed_hover">1.5</li>
+                                    <li class="speed_hover">1.25</li>
+                                    <li class="speed_hover">Normal</li>
+                                    <li class="speed_hover">0.75</li>
+                                    <li class="speed_hover">0.5</li>
+                                </ul>
+                                </div>
+                            </div>
+                                <i id="setting_icon" class="settingnotactive fa-solid fa-gear"></i>
+                        </div>
+                        <i class="fa-solid fa-layer-group"></i>
+                        <i id="full_screen" class="fa-solid fa-up-right-and-down-left-from-center"></i>
+                    </div>
+                </div>
+            </figure>
+        </div>
+        
+            <div id="section_main_final">
+                <div id="about_info" class="txt_final">
+                    <div id="mini_title_info">Join Our Community</div>
+                    <h3 id="main_title_info" class="txt_final">We are trusted by over 5000+ clients. Join them now and grow your business.</h3>
+                    <div id="quality_counter_txt">
+                        <div class="quality_item">
+                            <div class="counter">1000+</div>
+                            <div class="static_counter_txt">Completed Projects</div>
+                        </div>
+                        <div class="quality_item">
+                            <div class="counter">50K+</div>
+                            <div class="static_counter_txt">Happy Customers</div>
+                        </div>
+                        <div class="quality_item">
+                            <div class="counter">4X</div>
+                            <div class="static_counter_txt">Revenue Growth</div>
+                        </div>
+                    </div>
+                   
+                </div>
+                <div id="happy_people_img">
+                    <img src="img/about26.png" alt="">
+                </div>
+            </div>
+
+    </div>
+    <footer>
+        <div class="section_theme section_theme_footer">
+            <div id="footer_content">
+                <div class="footer_list">
+                    <img id="logo_footer" src="img/logo-light.png">
+                    <div class="footer_txt"><p>© 2024 Sandbox</p> <p>All rights reserved.</p></div>
+                    <div id="footer_icons">
+                        <i class="fa-brands fa-twitter"></i>
+                        <i class="fa-brands fa-facebook"></i>
+                        <i class="fa-solid fa-globe"></i>
+                        <i class="fa-brands fa-instagram"></i>
+                        <i class="fa-brands fa-youtube"></i>
+                    </div>
+                </div>
+                <div class="footer_list">
+                    <div class="footer_title">Get in Touch</div>
+                    <div class="footer_txt">Moonshine St. 14/05 Light City, London, United Kingdom</div>
+                    <div class="footer_txt"><a href="#" class="footer_txt link_txt">info@email.com</a><p>00 (123) 456 78 90</p></div>
+                </div>
+                <div class="footer_list">
+                    <div class="footer_title">Learn More</div>
+                    <ul id="nav_in_footer">
+                        <li><a class="footer_txt link_txt" href="#">about us</a></li>
+                        <li><a class="footer_txt link_txt" href="#">our story</a></li>
+                        <li><a class="footer_txt link_txt" href="#">project</a></li>
+                        <li><a class="footer_txt link_txt" href="#">terms of use</a></li>
+                        <li><a class="footer_txt link_txt" href="#">privacy policy</a></li>
+                    </ul>
+                </div>
+                <div class="footer_list">
+                    <div class="footer_title">Our Newsletter</div>
+                    <div class="footer_txt">Subscribe to our newsletter to get our news & deals delivered to you.</div>
+                    <div id="search_box_custom"></div>
+                </div>
+            </div>
+        </div>
+
+    </footer>
+    <!--modal box-->
+    <div id="modal">
+        <div id="modal_exit">X</div>
+        <div class="modal_img_template">
+           
+            
+        </div>
+    </div>
+
+       
+            
+        
+</body>
+</html>
