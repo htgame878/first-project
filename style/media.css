@@ -1,0 +1,11 @@
+@media (max-width:992px) {
+    #header_top_nav{
+        display: none !important;
+    }
+    #header_top{
+        grid-template-columns: repeat(2, auto) 50px !important;
+    }
+    #icon_bar{
+        display: block !important;
+    }
+}
