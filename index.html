@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style/media.css">
     <link rel="stylesheet" href="style/style.css">
     <script src="js/js.js" defer></script>
     <title>Document</title>
@@ -15,7 +16,7 @@
             <header>
                 <div id="header_top">
                     <a href="#"><img id="header_top_logo" src="img/logo-light.png"></a>
-                    <ul id="header_top_nav">
+                    <ul class="header_top_nav" id="header_top_nav">
                         <li>demos<i class="fa-solid fa-caret-down fa-sm"></i></li>
                         <li>pages<i class="fa-solid fa-caret-down fa-sm"></i></li>
                         <li>projects<i class="fa-solid fa-caret-down fa-sm"></i></li>
@@ -31,12 +32,27 @@
                             <li>ES</li>
                         </ul>
                     </div>
+                    <i id="icon_bar" class="fa-solid fa-bars"></i>
                 </div>
             </header>
             <div class="first_show_content">
-               
             </div>
         </section>
+    </div>
+    <div id="respawn_menu">
+        <div id="respawn_menu_header">
+            <a href="#"><img id="header_top_logo" src="img/logo-light.png"></a>
+            <div id="close_respawn_menu" class="exit_btn">X</div>
+
+        </div>
+        <ul id="respawn_menu_list" class="header_top_nav">
+            <li>demos<i class="fa-solid fa-caret-down fa-sm"></i></li>
+            <li>pages<i class="fa-solid fa-caret-down fa-sm"></i></li>
+            <li>projects<i class="fa-solid fa-caret-down fa-sm"></i></li>
+            <li>blog<i class="fa-solid fa-caret-down fa-sm"></i></li>
+            <li>blocks<i class="fa-solid fa-caret-down fa-sm"></i></li>
+            <li>documentation<i class="fa-solid fa-caret-down fa-sm"></i></li>
+        </ul>
     </div>
     <!--section info-->
      <div class="section_theme section_theme_info">
@@ -364,7 +380,7 @@
     </footer>
     <!--modal box-->
     <div id="modal">
-        <div id="modal_exit">X</div>
+        <div class="exit_btn" id="modal_exit">X</div>
         <div class="modal_img_template">
            
             
