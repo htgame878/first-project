@@ -268,3 +268,34 @@ function modalvideo(){
     modal.style.opacity="1";
     modal.addEventListener('click',closemodal)
 }
+
+/*additional fituers*/
+window.addEventListener('scroll',headerchange)
+
+function headerchange(){
+    let header=$.getElementById('header_top')
+    let headerlogo=$.getElementById('header_top_logo')
+    if(window.scrollY>40){
+        header.classList.add("header_position")
+        headerlogo.src="img/logo-dark.png"
+    }else{
+        header.classList.remove("header_position")
+        headerlogo.src="img/logo-light.png"
+    }
+}
+let iconbar=$.getElementById('icon_bar')
+let respawnmenu=$.getElementById('respawn_menu')
+let closerespawn=$.getElementById('close_respawn_menu')
+closerespawn.addEventListener('click',openmenu)
+iconbar.addEventListener('click',openmenu)
+let flagmenu=true
+function openmenu(){
+    console.log(flagmenu);
+    if(flagmenu){
+        respawnmenu.style.transform="translate(0px, 0px)"
+    }else{
+        respawnmenu.style.transform="translate(-300px, 0px)"
+    }
+    flagmenu=!flagmenu;
+}
+
